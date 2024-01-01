@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --color-1 {
+  syntax: '<color>';
+  initial-value: theme('colors.dark-navy');
+  inherits: false;
+}
+
+@property --color-2 {
+  syntax: '<color>';
+  initial-value: theme('colors.dark-navy');
+  inherits: false;
+}
+
+:root {
+  --color-1: theme('colors.dark-navy');
+  --color-2: theme('colors.dark-navy');
+}
