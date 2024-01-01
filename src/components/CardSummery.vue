@@ -15,7 +15,7 @@
       </SummaryListItem>
     </ul>
 
-    <form class="flex flex-col gap-6 mt-10" @submit.prevent="onSubmit">
+    <form class="flex flex-col gap-6 mt-10 md:max-w-[23.5rem] w-full" @submit.prevent="onSubmit">
       <Input v-model="email" placeholder="email@company.com" :errorMsg="errorMsg">Email address</Input>
       <Button>Subscribe to monthly newsletter</Button>
     </form>
